@@ -1,0 +1,101 @@
+.div-principal-inventario {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff9100;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #ff9100, rgb(252, 230, 37));
+   
+    background: linear-gradient(to right, #ff9100, rgb(252, 230, 37));
+
+}
+
+.titulo-inventario {
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 300%;
+    margin-top: -5%;
+}
+
+.div-container-inventario {
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row-inventario {
+    font-size: 110%;
+    cursor: pointer;
+}
+
+.cabezera-tabla-inventario {
+    font-size: 120%;
+}
+
+.boton-inventario1 {
+    width: 10%;
+    height: 10%;
+    font-size: 120%;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 1%;
+    margin-left: 33%;
+}
+
+.boton-inventario {
+    width: 7%;
+    height: 10%;
+    font-size: 120%;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 1%;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+ 
+    overflow: auto;
+    width: 50%;
+    margin-left: 25%;
+   margin-bottom: 1%;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    width: 25%;
+  }
+  
+  .modal-content h2 {
+    margin-top: 0;
+  }
+  
+  .modal-content input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .modal-content button {
+    margin-top: 10px;
+  }
